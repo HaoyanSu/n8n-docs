@@ -1,14 +1,24 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
   "name": "n8n-docs",
-  "navigation": [
-    { "title": "Overview", "path": "/overview" },
-    { "title": "Getting Started", "path": "/getting-started" }
-  ],
-  "logo": {
-    "light": "/logo-light.png",
-    "dark": "/logo-dark.png"
-  },
-  "footer": {
-    "text": "© 2025 Your Company. All rights reserved."
+  "colors": { "primary": "#3B82F6" },
+  "logo": { "light": "/logo-light.png", "dark": "/logo-dark.png" },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "基础",
+        "groups": [
+          { "group": "快速开始", "pages": ["overview", "installation"] }
+        ]
+      },
+      {
+        "tab": "使用指南",
+        "groups": [
+          { "group": "使用教程", "pages": ["usage", "advanced/config"] }
+        ]
+      }
+    ]
   }
 }
