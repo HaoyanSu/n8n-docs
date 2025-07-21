@@ -1,0 +1,14 @@
+{
+  "name": "n8n-docs",
+  "navigation": [
+    { "title": "Overview", "path": "/overview" },
+    { "title": "Getting Started", "path": "/getting-started" }
+  ],
+  "logo": {
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
+  },
+  "footer": {
+    "text": "© 2025 Your Company. All rights reserved."
+  }
+}
